@@ -4,7 +4,7 @@
 	 Copying and Distribution:
 	 This software is Free Software distributed under the terms of the MIT and GPL v3
 	 Description:
-	 This jquery library is an extension to the jquery validate plugin that allows validation of common UK dataatypes
+	 This jquery library is an extension to the jquery validate plugin that allows validation of common UK datatypes
 */
 
 

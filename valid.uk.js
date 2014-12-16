@@ -48,7 +48,7 @@
                          */
                         function(value)
 						{
-							return /^[A-Za-z]{1,2}\d{1,2}\s\d[A-Za-z]{2}$/.test(value); 
+							return /^[A-Za-z]{1,2}\d{1,2}\s+\d[A-Za-z]{2}$/.test(value); 
 						},
 						"Please enter a valid UK PostCode"
 						);
@@ -63,7 +63,7 @@
                          */
                         function(value)
 						{
-							return /^\d+(\.\d{2})?$/.test(value); 
+							return /^[A-Za-z]{2}\d{6}[A-Za-z]{1}$/.test(value); 
 						},
 						"Please enter a valid National Insurance Number"
 						);
@@ -96,7 +96,7 @@
 						{
 							return /^\d{7,8}$/.test(value); 
 						},
-						"Please a valid UK Bank Account /Builing Society Number"
+						"Please a valid UK Bank Account /Builing Society Account Number"
 						);
    
   /**
@@ -109,9 +109,9 @@
                          */
                         function(value)
 						{
-							return /^(\d){2}-(\d){2}-(\d){2}$/.test(value); 
+							return /^(\d){2}\-(\d){2}\-(\d){2}$/.test(value); 
 						},
-						"Please enter the amount in Uk Pounds"
+						"Please enter a Valid Sort Code"
 						);
 
 /**
